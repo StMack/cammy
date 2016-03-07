@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="">
+		<meta name="author" content="">
+
+		<title>Give it a CAAMY | Sponsored by AT&T</title>
+
+
+		<!-- Bootstrap core CSS -->
+		<link href="css/bootstrap.min.css" rel="stylesheet"> 
+		<link href="css/bootstrap-combobox.css" rel="stylesheet"> 
+		<link href="css/cammy.css" rel="stylesheet">
+	
+
+		<!-- Just for debugging purposes. Don't actually copy this line! -->
+		<!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+		<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+			<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+		<![endif]-->
+	</head>
+
+	<body> 
+		<div class="container">
+		<header>
+			<div class="row">
+				<div class="col-sm-12 text-center caamLogo">
+					<img src="img/caamfest-logo.png">
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-sm-12 text-center mainHeader">
+					<img src="img/results-header.png">
+					<!-- <p class="headerCopy">You are the [XX]th viewer to review this film</p> -->
+				</div>
+			</div>
+
+		</header>
+		<div class="row ratingResult">
+				<div class="col-sm-11 col-centered">
+					<p class="headerCopy">You are the [XX]th viewer to review this film</p>
+					<p>Liked It<span class="lovedIt">Loved It</span></p>
+				      <div class="progress">
+				        <div aria-valuemax="100" aria-valuemin="0" aria-valuenow="80" class="progress-bar" role="progressbar"></div>
+				      </div>
+				</div>
+			</div>
+
+		<section class="top5">
+			<div class="row">
+				<div class="col-sm-12">
+					<p class="headerCopy">Here are the top rated films at CAAMFest 2016</p>
+					<p><a href="topTen.html">See the top 10 CAAMY rated films</a></p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-3  topFilm">
+					<p class="filmTitle">This is a film name</p>
+				</div>
+				<div class="col-sm-9  topFilm">
+					<div class="progress">
+				        <div aria-valuemax="100" aria-valuemin="0" aria-valuenow="80" class="progress-bar" role="progressbar"></div>
+				    </div>
+				</div>
+
+				<div class="col-sm-3  topFilm">
+					<p class="filmTitle">This is a film name</p>
+				</div>
+				<div class="col-sm-9  topFilm">
+					<div class="progress">
+				        <div aria-valuemax="100" aria-valuemin="0" aria-valuenow="80" class="progress-bar" role="progressbar"></div>
+				    </div>
+				</div>
+
+				<div class="col-sm-3  topFilm">
+					<p class="filmTitle">This is a film name</p>
+				</div>
+				<div class="col-sm-9  topFilm">
+					<div class="progress">
+				        <div aria-valuemax="100" aria-valuemin="0" aria-valuenow="80" class="progress-bar" role="progressbar"></div>
+				    </div>
+				</div>
+
+				<div class="col-sm-3  topFilm">
+					<p class="filmTitle">This is a film name</p>
+				</div>
+				<div class="col-sm-9  topFilm">
+					<div class="progress">
+				        <div aria-valuemax="100" aria-valuemin="0" aria-valuenow="80" class="progress-bar" role="progressbar"></div>
+				    </div>
+				</div>
+
+				<div class="col-sm-3  topFilm">
+					<p class="filmTitle">This is a film name</p>
+				</div>
+				<div class="col-sm-9  topFilm">
+					<div class="progress">
+				        <div aria-valuemax="100" aria-valuemin="0" aria-valuenow="80" class="progress-bar" role="progressbar"></div>
+				    </div>
+				</div>
+			</div>
+		</section>
+
+
+		<section class="attAd">
+			<div class="row">
+				<div class="col-sm-12 text-center">
+					<img src="img/att-ad-fpo.png">
+				</div>
+			</div>
+		</section>
+
+		<footer>
+			<div class="row legal">
+				<div class="col-sm-9 col-xs-8">
+					<p><a href="http://clicks.att.com/OCT/eTrac?EMAIL_ID=1012748074&finalURL=http://att.com/Trademark-Copyright-Privacy-Policy?source=EACQM0ftr0000000E">© 2016 AT&T Intellectual Property</a>.  All rights reserved. AT&T, Globe logo, Mobilizing Your World and DIRECTV are registered trademarks of AT&T Intellectual Property and/or AT&T affiliated companies. All other marks are the property of their respective owners</p>
+				</div>
+				<div class="col-sm-3 col-xs-4">
+					<img src="img/att_myw_hz_p_lkp_rgb_pos.png">
+				</div>
+			</div>
+		</footer>
+			
+
+		</div><!-- /container -->
+
+		<!-- Bootstrap core JavaScript
+		================================================== -->
+		<!-- Placed at the end of the document so the pages load faster -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/placeholders.min.js"></script>
+		<script src="js/bootstrap-combobox.js"></script>
+
+
+		<script type="text/javascript">
+			var bar = $('.progress-bar');
+			$(function(){
+  			$(bar).each(function(){
+    		bar_width = $(this).attr('aria-valuenow');
+    		$(this).width(bar_width + '%');
+  			});
+			});
+		</script>
+
+</body>
+</html>

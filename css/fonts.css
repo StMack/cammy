@@ -1,0 +1,303 @@
+
+
+
+/************************************************************************************************************
+*********************************************** CLEARVIEW ***************************************************
+************************************************************************************************************/
+
+
+@font-face {
+    font-family: 'clearview-light';
+    src: url('../fonts/clearview-light/clvatt-light-webfont.eot');
+    src: url('../fonts/clearview-light/clvatt-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/clearview-light/clvatt-light-webfont.woff') format('woff'),
+         url('../fonts/clearview-light/clvatt-light-webfont.ttf') format('truetype'),
+         url('../fonts/clearview-light/clvatt-light-webfont.svg#clearview-light') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'clearview-light';
+    src: url('../fonts/clearview-light-italic/clvatt-light_ital-webfont');
+    src: url('../fonts/clearview-light-italic/clvatt-light_ital-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/clearview-light-italic/clvatt-light_ital-webfont.woff') format('woff'),
+         url('../fonts/clearview-light-italic/clvatt-light_ital-webfont.ttf') format('truetype'),
+         url('../fonts/clearview-light-italic/clvatt-light_ital-webfont.svg#clearview-light-italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'clearview-book';
+    src: url('../fonts/clearview-book/clvatt-book-webfont.eot');
+    src: url('../fonts/clearview-book/clvatt-book-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/clearview-book/clvatt-book-webfont.woff') format('woff'),
+         url('../fonts/clearview-book/clvatt-book-webfont.ttf') format('truetype'),
+         url('../fonts/clearview-book/clvatt-book-webfont.svg#clearview-book') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'clearview-book';
+    src: url('../fonts/clearview-book-italic/clvatt-book_ital-webfont');
+    src: url('../fonts/clearview-book-italic/clvatt-book_ital-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/clearview-book-italic/clvatt-book_ital-webfont.woff') format('woff'),
+         url('../fonts/clearview-book-italic/clvatt-book_ital-webfont.ttf') format('truetype'),
+         url('../fonts/clearview-book-italic/clvatt-book_ital-webfont.svg#clearview-book-italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'clearview-bold';
+    src: url('../fonts/clearview-bold/clvatt-bold-webfont.eot');
+    src: url('../fonts/clearview-bold/clvatt-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/clearview-bold/clvatt-bold-webfont.woff') format('woff'),
+         url('../fonts/clearview-bold/clvatt-bold-webfont.ttf') format('truetype'),
+         url('../fonts/clearview-bold/clvatt-bold-webfont.svg#clearview-bold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'clearview-bold';
+    src: url('../fonts/clearview-bold-italic/clvatt-bold_ital-webfont');
+    src: url('../fonts/clearview-bold-italic/clvatt-bold_ital-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/clearview-bold-italic/clvatt-bold_ital-webfont.woff') format('woff'),
+         url('../fonts/clearview-bold-italic/clvatt-bold_ital-webfont.ttf') format('truetype'),
+         url('../fonts/clearview-bold-italic/clvatt-bold_ital-webfont.svg#clearview-bold-italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+
+
+.clv-light {font-family: 'clearview-light'; font-size: 25px}
+.clv-light-italic {font-family: 'clearview-light'; font-style: italic;}
+.clv-book {font-family: 'clearview-book';}
+.clv-book-italic {font-family: 'clearview-book'; font-style: italic;}
+.clv-bold {font-family: 'clearview-bold';}
+.clv-bold-italic {font-family: 'clearview-bold'; font-style: italic;}
+
+/************************************************************************************************************
+************************************************* OMNES *****************************************************
+************************************************************************************************************/
+
+
+@font-face{
+font-family:"Omnes_ATT W02 Light";
+src:url("../fonts/omnes2-light/Omnes_ATTW02Light.eot?#iefix");
+src:url("../fonts/omnes2-light/Omnes_ATTW02Light.eot?#iefix") format("eot"),
+    url("../fonts/omnes2-light/Omnes_ATTW02Light.woff") format("woff"),
+    url("../fonts/omnes2-light/Omnes_ATTW02Light.ttf") format("truetype"),
+    url("../fonts/omnes2-light/Omnes_ATTW02Light.svg#Omnes_ATTW02Light") format("svg");
+}
+@font-face{
+font-family:"Omnes_ATT W02 Light Italic";
+src:url("../fonts/omnes2-light-italic/Omnes_ATTW02LightItalic.eot?#iefix");
+src:url("../fonts/omnes2-light-italic/Omnes_ATTW02LightItalic.eot?#iefix") format("eot"),
+    url("../fonts/omnes2-light-italic/Omnes_ATTW02LightItalic.woff") format("woff"),
+    url("../fonts/omnes2-light-italic/Omnes_ATTW02LightItalic.ttf") format("truetype"),
+    url("../fonts/omnes2-light-italic/Omnes_ATTW02LightItalic.svg#Omnes_ATTW02LightItalic") format("svg");
+}
+@font-face{
+font-family:"Omnes_ATT W02";
+src:url("../fonts/omnes2/Omnes_ATTW02.eot?#iefix");
+src:url("../fonts/omnes2/Omnes_ATTW02.eot?#iefix") format("eot"),
+    url("../fonts/omnes2/Omnes_ATTW02.woff") format("woff"),
+    url("../fonts/omnes2/Omnes_ATTW02.ttf") format("truetype"),
+    url("../fonts/omnes2/Omnes_ATTW02.svg#Omnes_ATTW02") format("svg");
+}
+@font-face{
+font-family:"Omnes_ATT W02 Italic";
+src:url("../fonts/omnes2-italic/Omnes_ATTW02Italic.eot?#iefix");
+src:url("../fonts/omnes2-italic/Omnes_ATTW02Italic.eot?#iefix") format("eot"),
+    url("../fonts/omnes2-italic/Omnes_ATTW02Italic.woff") format("woff"),
+    url("../fonts/omnes2-italic/Omnes_ATTW02Italic.ttf") format("truetype"),
+    url("../fonts/omnes2-italic/Omnes_ATTW02Italic.svg#Omnes_ATTW02Italic") format("svg");
+}
+@font-face{
+font-family:"Omnes_ATT W02 Medium";
+src:url("../fonts/omnes2-medium/Omnes_ATTW02Medium.eot?#iefix");
+src:url("../fonts/omnes2-medium/Omnes_ATTW02Medium.eot?#iefix") format("eot"),
+    url("../fonts/omnes2-medium/Omnes_ATTW02Medium.woff") format("woff"),
+    url("../fonts/omnes2-medium/bOmnes_ATTW02Medium.ttf") format("truetype"),
+    url("../fonts/omnes2-medium/Omnes_ATTW02Medium.svg#Omnes_ATTW02Medium") format("svg");
+}
+@font-face{
+font-family:"Omnes_ATT W02 Medium Italic";
+src:url("../fonts/omnes2-medium-italic/Omnes_ATTW02MediumItalic.eot?#iefix");
+src:url("../fonts/omnes2-medium-italic/Omnes_ATTW02MediumItalic.eot?#iefix") format("eot"),
+url("../fonts/omnes2-medium-italic/Omnes_ATTW02MediumItalic.woff") format("woff"),
+url("../fonts/omnes2-medium-italic/Omnes_ATTW02MediumItalic.ttf") format("truetype"),
+url("../fonts/omnes2-medium-italic/Omnes_ATTW02MediumItalic.svg#Omnes_ATTW02MediumItalic") format("svg");
+}
+@font-face{
+font-family:"Omnes_ATT W02 Bold";
+src:url("../fonts/omnes2-bold/Omnes_ATTW02Bold.eot?#iefix");
+src:url("../fonts/omnes2-bold/Omnes_ATTW02Bold.eot?#iefix") format("eot"),
+    url("../fonts/omnes2-bold/Omnes_ATTW02Bold.woff") format("woff"),
+    url("../fonts/omnes2-bold/Omnes_ATTW02Bold.ttf") format("truetype"),
+    url("../fonts/omnes2-bold/Omnes_ATTW02Bold.svg#Omnes_ATTW02Bold") format("svg");
+}
+@font-face{
+font-family:"OmnesATT W02 Bold Italic";
+src:url("../fonts/omnes2-bold-italic/OmnesATTW02BoldItalic.eot?#iefix");
+src:url("../fonts/omnes2-bold-italic/OmnesATTW02BoldItalic.eot?#iefix") format("eot"),
+    url("../fonts/omnes2-bold-italic/OmnesATTW02BoldItalic.woff") format("woff"),
+    url("../fonts/omnes2-bold-italic/OmnesATTW02BoldItalic.ttf") format("truetype"),
+    url("../fonts/omnes2-bold-italic/OmnesATTW02BoldItalic.svg#OmnesATTW02BoldItalic") format("svg");
+}
+
+
+
+
+
+
+/************************************************************************************************************
+************************************************ STAG ATT ***************************************************
+************************************************************************************************************/
+
+
+@font-face {
+    font-family: 'stag-light';
+    src: url('../fonts/stag-light/stagatt-light-webfont.eot');
+    src: url('../fonts/stag-light/stagatt-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/stag-light/stagatt-light-webfont.woff') format('woff'),
+         url('../fonts/stag-light/stagatt-light-webfont.ttf') format('truetype'),
+         url('../fonts/stag-light/stagatt-light-webfont.svg#stag-light') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'stag-light';
+    src: url('../fonts/stag-light-italic/stagatt-lightitalic-webfont.eot');
+    src: url('../fonts/stag-light-italic/stagatt-lightitalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/stag-light-italic/stagatt-lightitalic-webfont.woff') format('woff'),
+         url('../fonts/stag-light-italic/stagatt-lightitalic-webfont.ttf') format('truetype'),
+         url('../fonts/stag-light-italic/stagatt-lightitalic-webfont.svg#stag-lightitalic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'stag-book';
+    src: url('../fonts/stag-book/stagatt-book-webfont.eot');
+    src: url('../fonts/stag-book/stagatt-book-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/stag-book/stagatt-book-webfont.woff') format('woff'),
+         url('../fonts/stag-book/stagatt-book-webfont.ttf') format('truetype'),
+         url('../fonts/stag-book/stagatt-book-webfont.svg#stag-book') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'stag-book';
+    src: url('../fonts/stag-book-italic/stagatt-bookitalic-webfont.eot');
+    src: url('../fonts/stag-book-italic/stagatt-bookitalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/stag-book-italic/stagatt-bookitalic-webfont.woff') format('woff'),
+         url('../fonts/stag-book-italic/stagatt-bookitalic-webfont.ttf') format('truetype'),
+         url('../fonts/stag-book-italic/stagatt-bookitalic-webfont.svg#stag-bookitalic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'stag-bold';
+    src: url('../fonts/stag-bold/stagatt-bold-webfont.eot');
+    src: url('../fonts/stag-bold/stagatt-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/stag-bold/stagatt-bold-webfont.woff') format('woff'),
+         url('../fonts/stag-bold/stagatt-bold-webfont.ttf') format('truetype'),
+         url('../fonts/stag-bold/stagatt-bold-webfont.svg#stag-bold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'stag-bold';
+    src: url('../fonts/stag-bold-italic/stagatt-bolditalic-webfont.eot');
+    src: url('../fonts/stag-bold-italic/stagatt-bolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/stag-bold-italic/stagatt-bolditalic-webfont.woff') format('woff'),
+         url('../fonts/stag-bold-italic/stagatt-bolditalic-webfont.ttf') format('truetype'),
+         url('../fonts/stag-bold-italic/stagatt-bolditalic-webfont.svg#stag-bolditalic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+
+
+.stag-light {font-family: 'stag-light';}
+.stag-light-italic {font-family: 'stag-light'; font-style: italic;}
+.stag-book {font-family: 'stag-book';}
+.stag-book-italic {font-family: 'stag-book'; font-style: italic;}
+.stag-bold {font-family: 'stag-bold';}
+.stag-bold-italic {font-family: 'stag-bold'; font-style: italic;}
+
+
+
+
+
+/************************************************************************************************************
+*********************************************** STAG STENCIL ************************************************
+************************************************************************************************************/
+
+
+@font-face {
+    font-family: 'stag-stencil-light';
+    src: url('../fonts/stag-stencil-light/stagstencilatt-light-webfont.eot');
+    src: url('../fonts/stag-stencil-light/stagstencilatt-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/stag-stencil-light/stagstencilatt-light-webfont.woff') format('woff'),
+         url('../fonts/stag-stencil-light/stagstencilatt-light-webfont.ttf') format('truetype'),
+         url('../fonts/stag-stencil-light/stagstencilatt-light-webfont.svg#stag-stencil-light') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'stag-stencil-light';
+    src: url('../fonts/stag-stencil-light-italic/stagstencilatt-lightitalic-webfont.eot');
+    src: url('../fonts/stag-stencil-light-italic/stagstencilatt-lightitalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/stag-stencil-light-italic/stagstencilatt-lightitalic-webfont.woff') format('woff'),
+         url('../fonts/stag-stencil-light-italic/stagstencilatt-lightitalic-webfont.ttf') format('truetype'),
+         url('../fonts/stag-stencil-light-italic/stagstencilatt-lightitalic-webfont.svg#stag-stencil-lightitalic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'stag-stencil-bold';
+    src: url('../fonts/stag-stencil-bold/stagstencilatt-bold-webfont.eot');
+    src: url('../fonts/stag-stencil-bold/stagstencilatt-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/stag-stencil-bold/stagstencilatt-bold-webfont.woff') format('woff'),
+         url('../fonts/stag-stencil-bold/stagstencilatt-bold-webfont.ttf') format('truetype'),
+         url('../fonts/stag-stencil-bold/stagstencilatt-bold-webfont.svg#stag-stencil-bold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'stag-stencil-bold';
+    src: url('../fonts/stag-stencil-bold-italic/stagstencilatt-bolditalic-webfont.eot');
+    src: url('../fonts/stag-stencil-bold-italic/stagstencilatt-bolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/stag-stencil-bold-italic/stagstencilatt-bolditalic-webfont.woff') format('woff'),
+         url('../fonts/stag-stencil-bold-italic/stagstencilatt-bolditalic-webfont.ttf') format('truetype'),
+         url('../fonts/stag-stencil-bold-italic/stagstencilatt-bolditalic-webfont.svg#stag-stencil-bolditalic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+
+
+.stag-stencil-light {font-family: 'stag-stencil-light';}
+.stag-stencil-light-italic {font-family: 'stag-stencil-light'; font-style: italic;}
+.stag-stencil-bold {font-family: 'stag-stencil-bold';}
+.stag-stencil-bold-italic {font-family: 'stag-stencil-bold'; font-style: italic;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

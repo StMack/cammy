@@ -50,10 +50,14 @@ body {font-family:"Omnes_ATT W02"; font-size: 16px; color:#191919; text-align: l
 	.newRating .headerCopy {text-align: center;}
 	.scale {font-size: .875em}
 	.ratings_stars, .ratings_vote, .ratings_over {width:45px; height:80px;}
-	
 }
+@media only screen and (max-width: 375px){
+	.rate_widget {width:375px;}
+}
+
 @media only screen and (max-width: 320px){
 	.ratings_stars, .ratings_vote, .ratings_over {width:32px; height:57px;}
 	.mainScale {display: none;}
 	.smallPhone {display: block;}
+	.rate_widget {width:320px;}
 }

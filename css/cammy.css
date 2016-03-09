@@ -52,7 +52,8 @@ body {font-family:"Omnes_ATT W02"; font-size: 16px; color:#191919; text-align: l
 	.ratings_stars, .ratings_vote, .ratings_over {width:45px; height:80px;}
 }
 @media only screen and (max-width: 375px){
-	.rate_widget {width:375px;}
+	.rate_widget {width:350px;}
+	.ratings_stars, .ratings_vote, .ratings_over {width:38px; height:70px;}
 }
 
 @media only screen and (max-width: 320px){

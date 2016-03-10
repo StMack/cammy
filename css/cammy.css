@@ -1,7 +1,7 @@
 @import url(fonts.css);
 body {font-family:"Omnes_ATT W02"; font-size: 16px; color:#191919; text-align: left;}
 .col-centered{ float: none; margin: 0 auto;}
-.smallPhone {display: none;}
+.smallPhone, .mobileAd {display: none;}
 .caamLogo, .mainHeader, .headerCopy {margin-top: .5em}
 .caamLogo img {width:70%;}
 .mainHeader img {width: 100%}
@@ -10,8 +10,8 @@ body {font-family:"Omnes_ATT W02"; font-size: 16px; color:#191919; text-align: l
 .input-group-addon {border:none; background-color: transparent;}
 .titleText {font-family:"Omnes_ATT W02 Medium"; font-size: 1.125em; color: #00aaad;}
 .search, .caamFest, .attAd, .rating, .film, footer, .emailForm {margin-top: 2em}
-.caamFest img {width:50%;}
-.legal p {font-family: 'clearview-book'; font-size: .75em}
+.caamFest img {width:40%;}
+.legal p {font-family: 'clearview-book'; font-size: .675em}
 .legal img {width: 90%}
 .attAd img {width:95%;}
 .filmInfo img {width:100%;}
@@ -19,9 +19,10 @@ body {font-family:"Omnes_ATT W02"; font-size: 16px; color:#191919; text-align: l
 .filmCredits {font-size: .75em}
 .progress-bar {-webkit-transition: width 1.5s ease-in-out; transition: width 1.5s ease-in-out; background-color:#00aaad;}
 .lovedIt {margin-left: 84%}
-
+.ratingResult {margin-top: 1em}
+.ratingCopy {font-family:"Omnes_ATT W02 Medium"; font-size: 1.25em; color: #009fdb; }
 .newRating .headerCopy {text-align: right;}
-.rate_widget {overflow: visible; padding: 10px; position: relative; width: 395px;}
+.rate_widget {overflow: visible; width:38%; margin: 0 auto}
 .ratings_stars {background: url('../img/cammy-grey.png') no-repeat; background-size: 90%; float: left; height: 96px; padding: 2px; width: 52px; margin: 0 10px;}
 .ratings_vote {background: url('../img/cammy-color.png') no-repeat; background-size: 90%; height: 96px; width: 52px; margin: 0 10px;}
 .ratings_over {background: url('../img/cammy-color.png') no-repeat; background-size: 90%; float: left; height: 96px; width: 52px; margin: 0 10px;}
@@ -31,31 +32,42 @@ body {font-family:"Omnes_ATT W02"; font-size: 16px; color:#191919; text-align: l
 .topFilm {margin: 2em 0;}
 .topTenHeader img {width:80%;}
 .goButton {margin-top: 2em}
-
+.love {text-align: center;}
 
 
 
 
 @media only screen and (max-width: 768px){
-	.caamFest img {width:83%;}
+	.caamFest img {width:40%;}
 	.lovedIt {margin-left: 80%}
 	.topFilm {margin: .5em 0 0 0;}
+	.rate_widget {width:50%; margin:0 auto;}
+}
+@media only screen and (max-width: 736px){
+	.rate_widget {width:52%; margin:0 auto;}
+}
+@media only screen and (max-width: 667px){
+	.rate_widget {width:58%; margin:0 auto;}
+}
+@media only screen and (max-width: 568px){
+	.rate_widget {width:68%; margin:0 auto;}
 }
 @media only screen and (max-width: 414px){
-	.legal p {font-size: .675em}
 	.legal img {width:100%;}
 	.filmInfo img {margin-bottom: 1em}
 	.headerCopy {font-size: 1.5em}
 	.lovedIt {margin-left: 66%}
 	.newRating .headerCopy {text-align: center;}
 	.scale {font-size: .875em}
-	.rate_widget {width:350px;}
+	.rate_widget {width:76%; margin:0 auto;}
 	.ratings_stars, .ratings_vote, .ratings_over {width:38px; height:70px;}
+	.bannerAd {display: none;}
+	.mobileAd {display: block;}
 }
-
+@media only screen and (max-width: 375px){
+	.rate_widget {width:84%; margin:0 auto;}
+}
 @media only screen and (max-width: 320px){
 	.ratings_stars, .ratings_vote, .ratings_over {width:32px; height:57px;}
-	.mainScale {display: none;}
-	.smallPhone {display: block;}
-	.rate_widget {width:320px;}
+	.ratingCopy {font-size: 1em}
 }
